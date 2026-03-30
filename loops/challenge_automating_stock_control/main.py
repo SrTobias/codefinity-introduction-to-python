@@ -7,3 +7,11 @@ inventory = {
 }
 
 discount_threshold = 100
+
+#1 
+for item in inventory:
+    current_stock = inventory[item][0]
+    min_stock = inventory[item][1]
+    restock_stock = inventory[item][2]
+    sale_status = inventory[item][3]
+    
